@@ -53,7 +53,7 @@
 <body>
   <section class="contactus" >
       <div class="contentcontactus">
-          <h2><a href="home.php"><img style="width: 32px" src="images/favicon-32x32.png" alt="icon"></a> Contact Us</h2>
+          <h2><a href="index.php"><img style="width: 32px" src="images/favicon-32x32.png" alt="icon"></a> Contact Us</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda a, iure similique illo pariatur corrupti earum optio itaque deleniti consequatur.</p>
       </div>
       <div class="containercontact">

@@ -51,7 +51,7 @@ if($idOrder) {
 <body>
   <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
         <div>
-            <div class="text-center"><a href="home.php"><img src="images/favicon-32x32.png" alt="icon"></a></div>
+            <div class="text-center"><a href="index.php"><img src="images/favicon-32x32.png" alt="icon"></a></div>
             <h1 class="display-4 text-center">Rhythm House</h1>
             <p class="lead text-center">Thank for your order, you can view your order here: <a href="user-orders-history.php">Order <?=$idOrder?></a></p>
             </div>

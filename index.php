@@ -54,14 +54,14 @@
     <!--thanh navabr-->
     <nav class="navbar navbar-expand-lg fixed-top " id="trongsuot">
         <div class="container">
-            <a class="navbar-brand" href="home.php">RhythmHouse</a>
+            <a class="navbar-brand" href="index.php">RhythmHouse</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon "><i class="fas fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="home.php">HOME</a>
+                        <a class="nav-link" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="store.php">MUSIC STORE</a>
@@ -91,7 +91,7 @@
                     <i data-toggle="dropdown" class="fas fa-user dropdown-toggle text-primary"> <?=$userName?></i>
                     <div class="dropdown-menu" id="dropdown-menu-signin">
                         <a class="dropdown-item" href="user-orders-history.php">Orders History</a>
-                        <a class="dropdown-item" href="home.php?logout=yes">Log out</a>
+                        <a class="dropdown-item" href="index.php?logout=yes">Log out</a>
                     </div>
                 </div>
               <?php endif; ?>      

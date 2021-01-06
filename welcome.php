@@ -24,7 +24,7 @@
      <!-- main -->
     <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
       <div>
-        <div class="text-center"><a href="home.php"><img src="images/favicon-32x32.png" alt="icon"></a></div>
+        <div class="text-center"><a href="index.php"><img src="images/favicon-32x32.png" alt="icon"></a></div>
         <p class="text-center lead">Welcome <?=$name?>, Your account has been successfully registered. Please sign in</p>
         <div class="text-center"><a href="signin.php">sign in</a></div>
       </div>

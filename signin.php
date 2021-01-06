@@ -14,7 +14,7 @@
         $_SESSION['isSignin'] = true;
         $_SESSION['userId'] = $user['id'];
         $_SESSION['userName'] = $user['name'];
-        header('location: home.php');
+        header('location: index.php');
       }
       
     } else {
@@ -43,14 +43,14 @@
         <div class="d-none d-md-block col-md-6">
           <div class="h-100 d-flex align-items-center justify-content-center">
             <div>
-              <div class="text-center"><a href="home.php"><img src="images/favicon-32x32.png" alt="icon"></a></div>
+              <div class="text-center"><a href="index.php"><img src="images/favicon-32x32.png" alt="icon"></a></div>
               <h1 class="display-4 text-center">Rhythm House</h1>
               <p class="lead text-center">your music store!</p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="col-12"><h3><a class="d-inline d-md-none" href="home.php"><img src="images/favicon-32x32.png" alt="icon"></a> Sign in</h3></div>
+          <div class="col-12"><h3><a class="d-inline d-md-none" href="index.php"><img src="images/favicon-32x32.png" alt="icon"></a> Sign in</h3></div>
           <small id="errMessage" class="form-text text-danger"><?=$errMess?></small>
           <form id="form-signin" class="col-md-10 col-lg-8 rounded p-4 mt-3 border" method="post">
             <div class="form-group">

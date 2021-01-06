@@ -24,7 +24,7 @@
         <span></span>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia quibusdam alias voluptatum reprehenderit. Quia accusamus ex possimus ullam reprehenderit tempore animi, iste delectus, laudantium harum eos suscipit esse ipsum?</p>
         <ul class="linksabout">
-            <li><a href="home.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <div class="vertical-line"></div>
             <li><a href="liveshow.php">Live Show</a></li>
             <div class="vertical-line"></div>
